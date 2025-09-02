@@ -136,3 +136,11 @@ body {
     
   }
  
+.redes{
+  display: flex;
+  gap: 18px;
+  justify-content: end;
+  margin-top: 24px;
+  
+  
+}
