@@ -27,6 +27,8 @@ body {
     
   }
 
+ 
+
   .img{
       border-radius: 100%;
       width: 100px;
@@ -62,14 +64,15 @@ body {
     /*background-image: url('img/hero-bg.jpg');*/
     background-size: cover;
     background-position: center;
-    color: white;
+    color: black;
     text-align: center;
     padding: 100px 20px;
   }
   
   .hero h2 {
     font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
+    color:black;
   }
   
   /* About */
@@ -83,15 +86,49 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 20px;
     width: 100px;
-    height: auto;
+    /*height: auto;*/
     margin: 20px;
   }
 
   
   .gallery img {
-    width: 180%;
+    width: 100%;
     display: flex;
     
+  }
+   
+
+
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 13px;
+    height: auto;
+    font-size: 18px;
+  }
+
+  .producto {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+  }
+
+  .producto img {
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .producto h2 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+  }
+
+  .producto p {
+    color: #555;
   }
 
 
@@ -111,17 +148,18 @@ body {
     border-radius: 5px;
   }
   
-  button{
+  .button{
+    
     border: none;
-    padding: 12px;
-    margin: 8px;
-    background-color:rgb(13, 13, 83);
+    padding: 32px;
+    margin: 39px;
+    /*background-color:rgb(13, 13, 83);*/
     color: white;
     cursor: pointer;
   }
 
   button:hover {
-    background-color: #555;
+    background-color:floralwhite;
   }
   
 

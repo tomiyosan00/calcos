@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Old calcos</title>
-    <link rel="stylesheet" href="estilo.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/estilo.css" />
     
     
   
 </head>
 <body>
+  
   
     <header>
         <img  src="img/old.jpg" alt="Old calcos " class="img">
@@ -29,42 +31,86 @@
         <section class="hero">
             <h2>calcos personalizadas para todos los gustos</h2>
             <p>Diseños unicos, resistentes y hechos a tu gusto</p>
-            <button>Ver mas</button>
+            
+        </section>
+        
+
+        <section>
+            <h3 class="block   text-black  py-5 rounded transition font-bold">Algunas de nuestras calcos</h3>
         </section>
 
-        <section class="productos">
-            <h3>Algunas de nuestras calcos</h3>
+        <div class="productos">
+    
+          <!-- Producto 1 -->
+          <div class="producto">
+            <img src="img/vintage.jpg" alt="Calco 1" style="width: 320px; margin-top: 32px; height: auto;">
+            <h2>Calcos vintage</h2>
+            <p>Diseño exclusivo .</p>
+            
+            
+          </div>
+      
+          <!-- Producto 2 -->
+          <div class="producto">
+            <img src="img/perso.jpg" alt="Calco 2" style="width: 350px; height:480px;" >
+            <h2>Calcos personalizadas</h2>
+            <p>Ideal para cascos de moto.</p>
+          </div>
+          
+
+
+          <div class="producto">
+            <img src="img/mini.jpg" alt="Calco 2" style="width: 300px; height: auto;">
+            <h2>Calcos Comunes</h2>
+            <p>Ideales para termos.</p>
+             
+          </div>
+
+          <div class="producto">
+            <img src="img/marcas.jpg" alt="Calco 2" style="width: 300px; height: auto;">
+            <h2>Calcos Marcas</h2>
+            <p>Estilo de marcas.</p>
+             
+          </div>
+      
+          <!-- Producto 3 -->
+          <div class="producto">
+            <img src="img/equipos.jpg" alt="Calco 3" style="width: 300px; height: auto;">
+            <h2>Calcos equipos</h2>
+            <p>Calco personalizado a pedido.</p>
+            
+            
+          </div>
+      
+          <!-- Producto 4 -->
+          <div class="producto">
+            <img src="img/clasica.jpg" alt="Calco clasicas" style="width: 250px; margin-top: 32px; height: auto;">
+            <h2>Calcos clasicas</h2>
+            <p>Estilo urbano y moderno.</p>
+            
+            
+          </div>
+      
+          <!-- Agrega más productos copiando este bloque -->
+      
+        </div>
+
+
 
         
-        
+        <section id="contacto" class="contact">
+          <div>
+           <!-- Botón de acción -->
+           <a href="https://wa.me/5492923439560?text=Hola!%20Quiero%20comprar%20el%20Calco%20Cassette"
+             target="_blank"
+             class="block bg-green-500 hover:bg-green-600 text-white text-center py-2 rounded transition font-bold">
+            Comprar por WhatsApp
+           </a>
+         </div>
         </section>
-
-        <section id="galeria" class="gallery">
-            <div class="container">
-              <h2>Galería de Calcos</h2>
-              <div class="grid">
-                <p>Calcos clasica</p>  
-                <img src="img/clasica.jpg" alt= "Calcos clasica" />
-                <p>Calcos vintage</p>
-                <img src="img/vintage.jpg" alt="Calcos vintage" />
-                <p>Calcos personalizadas</p>
-                <img src="img/perso.jpg" alt="Calco personalizadas" />
-                <!-- Puedes agregar más imágenes -->
-              </div>
-            </div>
-          </section>
-        
-          <section id="contacto" class="contact">
-            <div class="container">
-              <h2>Contacto</h2>
-              <form>
-                <input type="text" placeholder="Tu nombre" required />
-                <input type="numero" placeholder="Telefono" required />
-                <textarea placeholder="Tu mensaje" required></textarea>
-                <button type="submit">Enviar</button>
-              </form>
-            </div>
-        </section>
+       
+       
+        <script src="js/app.js"></script>
 
     </main>    
 
